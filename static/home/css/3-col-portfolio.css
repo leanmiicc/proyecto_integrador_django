@@ -1,0 +1,770 @@
+/*!
+ * Start Bootstrap - 3 Col Portfolio (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+	overflow-x: hidden;
+	
+	
+
+}
+header {
+	
+	background-color:#f4f4f4;
+	
+	}
+	
+section {
+	
+	background-color:#f4f4f4;
+	}
+
+.navbar-inverse .navbar-nav .dropdown .dropdown-toggle  {
+	color:#626161;
+	height: 60px!important;
+	font-size: 14px;
+    font-weight: bold;
+	margin-top: 10px;
+	
+	/*color:#b1b1b1;*/
+    /*color: #ccc;*/
+  }
+  
+
+
+.portfolio-item {
+    margin-bottom: 25px;
+	
+}
+
+footer {
+	
+    margin-bottom: 0;
+    
+}
+
+.navbar-brand{
+	margin-top: -11px;
+	height: 80px!important;
+	}
+
+h1{
+	
+  text-shadow: 3px 3px 3px #aaa;
+
+	}
+
+h1 small{
+	
+	text-shadow:none;
+	
+	
+	}
+h5{
+	font-weight:bold;
+	
+	
+}
+.breadcrumb a{
+	color:#000;
+}
+
+
+
+.page-header{
+	font-size:20px;
+	margin-top: -5px;
+	
+	}
+	
+.btn-ttc{
+	color:#FFF;
+	background-color: #fd1b24;!important
+	
+	}
+	
+
+.corazon{
+	font-weight:bold;
+	
+	font-family:Geneva, sans-serif;
+	
+}
+
+.descript{
+	text-align: justify;
+	
+	}
+
+.direccion{
+	font-size:14px;
+	
+	}
+
+.form-group {
+  box-shadow: 2px 2px 5px #999;
+}
+
+.checkbox {
+  box-shadow: 2px 2px 5px #999;
+}
+
+
+
+footer {
+	width: 100%;
+}
+	
+.pie {
+    padding-top: 25px;
+    font-size: 11px;
+    color: #fff;
+    background-color: #333;
+	display: block;
+	
+}
+
+.pie p{
+	margin: 10px;
+	
+}
+
+.pie a {
+	text-decoration: none;
+	color:#cccccc;
+}
+.pie a:hover {
+	text-decoration: none;
+	color:#ffffff;
+}
+
+.pie a:active {
+	text-decoration: none;
+	color:#ffffff;
+}
+
+.pie ol, ul {
+	margin: 10px;
+	padding: 0px;
+}
+.pie li {
+	list-style:none;
+	
+}
+.elegir{
+	
+	background-color:#ccc;
+}
+.indice{
+	background-color:#F00;
+	
+	
+}
+
+.servicios ul{
+	margin-left: 30px;
+	
+}
+
+@media (min-width:768px){	
+
+.pull-right {
+  float: right !important;
+}
+
+.pull{
+	
+	float: right !important;
+	}
+	
+	.page-header{
+	font-size:30px;
+	margin-top: 0px;
+	
+	}
+	
+#organizacion {
+	padding-top: 200px;
+	
+	}
+	
+#organizacion p {
+	
+	text-align: justify;
+	}
+
+#normas {
+	padding-top: 200px;
+}
+
+#normas p {
+	
+	text-align: justify;
+	}
+
+#institucional {
+	
+	padding-top: 200px;
+}
+	
+#institucional li{
+	
+	
+	color:#000
+	}
+	
+#politicas {
+	
+	padding-top: 200px;
+}
+
+#politicas p{
+	
+	text-align: justify;
+}
+	
+#ubicacion {
+	
+	padding-top: 200px;
+}	
+
+#contacto {
+	
+	padding-top: 300px;
+}	
+
+
+
+}
+
+.formito{
+	background-color:#fd1b24;
+	
+}
+
+
+
+
+	
+section.cta .overlay {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+section.redes {
+  text-align: center;
+}
+
+section.redes h2 {
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+section.redes h2 i {
+  color: #dd4b39;
+}
+section.redes ul.list-social {
+  margin-bottom: 0;
+  margin-left: 0px;
+}
+section.redes ul.list-social li a {
+  display: block;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  font-size: 20px;
+  border-radius: 100%;
+  color: white;
+  margin-left: -10px;
+}
+section.redes ul.list-social li.social-twitter a {
+  background-color: #1da1f2;
+}
+section.redes ul.list-social li.social-twitter a:hover {
+  background-color: #0d95e8;
+}
+section.redes ul.list-social li.social-facebook a {
+  background-color: #3b5998;
+}
+section.redes ul.list-social li.social-facebook a:hover {
+  background-color: #344e86;
+}
+section.redes ul.list-social li.social-google-plus a {
+  background-color: #dd4b39;
+}
+section.redes ul.list-social li.social-google-plus a:hover {
+  background-color: #d73925;
+}
+section.redes ul.list-social li.social-youtube a {
+  background-color: #e21a20;
+}
+section.redes ul.list-social li.social-youtube a:hover {
+  background-color: #e21a20;
+}
+section.redes ul.list-social li.social-instagram a {
+  background-color: #517fa6;
+}
+section.redes ul.list-social li.social-instagram a:hover {
+  background-color: #517fa6;
+}
+section.redes ul.list-social li.social-whatsapp a {
+  background-color: #5ece44;
+}
+section.redest ul.list-social li.social-heart a {
+  background-color: #ff1493;
+}
+
+
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/*gallery*/
+/* jssor slider arrow navigator skin 05 css */
+        /*
+        .jssora05l                  (normal)
+        .jssora05r                  (normal)
+        .jssora05l:hover            (normal mouseover)
+        .jssora05r:hover            (normal mouseover)
+        .jssora05l.jssora05ldn      (mousedown)
+        .jssora05r.jssora05rdn      (mousedown)
+        .jssora05l.jssora05lds      (disabled)
+        .jssora05r.jssora05rds      (disabled)
+        */
+        .jssora05l, .jssora05r {
+            display: block;
+            position: absolute;
+            /* size of arrow element */
+            width: 40px;
+            height: 40px;
+            cursor: pointer;
+            background: url('img/a17.png') no-repeat;
+            overflow: hidden;
+        }
+        .jssora05l { background-position: -10px -40px; }
+        .jssora05r { background-position: -70px -40px; }
+        .jssora05l:hover { background-position: -130px -40px; }
+        .jssora05r:hover { background-position: -190px -40px; }
+        .jssora05l.jssora05ldn { background-position: -250px -40px; }
+        .jssora05r.jssora05rdn { background-position: -310px -40px; }
+        .jssora05l.jssora05lds { background-position: -10px -40px; opacity: .3; pointer-events: none; }
+        .jssora05r.jssora05rds { background-position: -70px -40px; opacity: .3; pointer-events: none; }
+        /* jssor slider thumbnail navigator skin 01 css *//*.jssort01 .p            (normal).jssort01 .p:hover      (normal mouseover).jssort01 .p.pav        (active).jssort01 .p.pdn        (mousedown)*/.jssort01 .p {    position: absolute;    top: 0;    left: 0;    width: 72px;    height: 72px;}.jssort01 .t {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;    border: none;}.jssort01 .w {    position: absolute;    top: 0px;    left: 0px;    width: 100%;    height: 100%;}.jssort01 .c {    position: absolute;    top: 0px;    left: 0px;    width: 68px;    height: 68px;    border: #000 2px solid;    box-sizing: content-box;    background: url('img/t01.png') -800px -800px no-repeat;    _background: none;}.jssort01 .pav .c {    top: 2px;    _top: 0px;    left: 2px;    _left: 0px;    width: 68px;    height: 68px;    border: #000 0px solid;    _border: #fff 2px solid;    background-position: 50% 50%;}.jssort01 .p:hover .c {    top: 0px;    left: 0px;    width: 70px;    height: 70px;    border: #fff 1px solid;    background-position: 50% 50%;}.jssort01 .p.pdn .c {    background-position: 50% 50%;    width: 68px;    height: 68px;    border: #000 2px solid;}* html .jssort01 .c, * html .jssort01 .pdn .c, * html .jssort01 .pav .c {    /* ie quirks mode adjust */    width /**/: 72px;    height /**/: 72px;}
+		
+/*Fin Gallery*/
+
+.dropdown-submenu {
+	position: relative;
+}
+.dropdown-submenu .dropdown-menu {
+	top: 0;
+	left: 100%;
+	margin-top: -1px;
+}
+
+
+		
+
+
+.select-style {
+    padding: 0;
+    margin: 0;
+    border: 1px solid #ccc;
+    width: 250px;
+	height: 35px;
+    border-radius: 3px;
+    overflow: hidden;
+    background-color: #fff;
+	box-shadow: 2px 2px 5px #999;
+
+    background: #fff url("http://www.scottgood.com/jsg/blog.nsf/images/arrowdown.gif") no-repeat 90% 50%;
+}
+
+.select-style select {
+    padding: 5px 8px;
+    width: 130%;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+}
+
+.select-style select:focus {
+    outline: none;
+}		
+		
+#donde{
+	padding: 0;
+    margin: 0;
+    border: 1px solid #ccc;
+    width: 250px;
+	height: 35px;
+    border-radius: 3px;
+    overflow: hidden;
+    background-color: #fff;
+	box-shadow: 2px 2px 5px #999;
+	background: #fff url("http://www.scottgood.com/jsg/blog.nsf/images/arrowdown.gif") no-repeat 90% 50%;
+	}
+	
+.banner{
+	background-color: #fe141f;
+	height: 30px;
+	color:#FFF;
+	
+	}
+	
+.banner{
+	background-color: #fe141f;
+	height: 65px;
+	color:#FFF;
+	margin-top: -25px;
+	
+}
+
+.banner h3{
+	padding-top: 20px;
+	text-align:center;
+	
+	
+		vertical-align:middle;
+		
+}
+
+
+body {
+  color: #6a6c6f;
+ background-color: #f1f3f6;
+ /*background-color:#fee9cb;*/
+  margin-top: 30px;
+}
+
+
+
+.panel-default>.panel-heading {
+  color: #333;
+  background-color: #fff;
+  border-color: #e4e5e7;
+  padding: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.panel-default>.panel-heading a {
+  display: block;
+  padding: 10px 15px;
+}
+
+.panel-default>.panel-heading a:after {
+  content: "";
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  float: right;
+  transition: transform .25s linear;
+  -webkit-transition: -webkit-transform .25s linear;
+}
+
+.panel-default>.panel-heading a[aria-expanded="true"] {
+  background-color: #eee;
+}
+
+.panel-default>.panel-heading a[aria-expanded="true"]:after {
+  content: "\2212";
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.panel-default>.panel-heading a[aria-expanded="false"]:after {
+  content: "\002b";
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.accordion-option {
+  width: 100%;
+  float: left;
+  clear: both;
+  margin: 15px 0;
+}
+
+.accordion-option .title {
+  font-size: 20px;
+  font-weight: bold;
+  float: left;
+  padding: 0;
+  margin: 0;
+}
+
+.promocion p{
+	text-align:justify;
+	
+	
+	}
+.tel{
+	text-align:center;
+	border-radius: 5px;
+	padding-top: 10px;
+	height: 40px;
+	width:250px;
+	color:#fff !important;
+	background-color:#fe141f !important;
+	
+	
+	}
+	
+.error-404 h2{
+	text-align:center;
+	font-size: 50px;
+    font-weight: bold;
+	color:#fd1b24;
+	}
+	
+.error-404 p{
+	text-align:center;
+	color:#777777;
+	font-size: 30px;
+	font-style:italic;
+	}	
+	
+.error-404 p span{
+	color:#fd1b24;
+	font-weight:bold;
+	}
+	
+.consulta h2{
+	text-align:center;
+	font-size: 30px;
+    font-weight: bold;
+	color:#737373;
+	}
+	
+.consulta h2 small{
+	text-align:center;
+	color:#777777;
+	font-style:italic;
+	}
+	
+.consulta p span{
+	color:#fd1b24;
+	font-weight:bold;
+	font-style:italic;
+	}
+	
+.navbar-header {
+	background-color: #e5e4e2;
+	/*background-color: #fee9cc;*/
+	
+	
+	
+	
+	}
+	
+.nav {
+	background-color:#e5e4e2;
+	/*background-color: #fee9cc;*/
+	margin-right: 50px;
+	
+	}
+	
+.container-nav {
+	background-color: #e5e4e2;
+	/*background-color: #fee9cc;*/
+	
+	}
+	
+/*li {
+	color: #F00;
+	
+	
+	}*/
+	
+	
+li {
+	margin-right:10px;}
+	
+header {
+	
+	margin-top: -20px;
+	}
+
+footer{
+	margin-bottom:-50px;
+	
+	
+	}
+
+#organizacion {
+	padding-top: 70px;
+	
+	}
+	
+#organizacion p {
+	
+	text-align: justify;
+	}
+
+#normativa {
+	padding-top: 70px;
+}
+
+#normativa p {
+	
+	text-align: justify;
+	}
+
+#institucional {
+	
+	padding-top: 70px;
+}
+	
+#institucional li{
+	
+	
+	color:#000
+	}
+	
+#politicas {
+	
+	padding-top: 70px;
+}
+
+#politicas p{
+	
+	text-align: justify;
+}
+	
+#ubicacion {
+	
+	padding-top: 70px;
+}
+
+#area {
+	
+	padding-top: 70px;
+}
+	
+/**#myCarousel {
+	padding-top: 70px;
+	
+	}**/
+	
+#contact {
+	padding-top: 70px;
+	
+	}
+	
+.map-responsive{
+
+    overflow:hidden;
+
+    padding-bottom:56.25%;
+
+    position:relative;
+
+    height:0;
+
+}
+
+.map-responsive iframe{
+
+    left:0;
+
+    top:0;
+
+    height:100%;
+
+    width:100%;
+
+    position:absolute;
+	
+	/*max-height: 1200px;*/
+
+}
+
+
+#gas {
+	
+	padding-top: 70px;
+	
+	}
+
+#gas p  {
+	text-align:left;
+	
+	
+	}
+	
+#gnc {
+	
+	padding-top: 70px;
+	
+	}
+
+#gnc p  {
+	text-align: left;!important;
+	
+	
+	}
+	
+#historia p {
+	
+	text-align: justify;
+	}
+
+#myCarousel {
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: #000;
+  
+}
+
+
+body {
+  
+ 
+/* background-color:#fee9cb;*/
+  
+}
+
+#redes{
+background-color: #333;	
+padding-top: 70px;
+	
+	}
+
+#organizacion li {
+	text-align: left;
+	
+	}
+	
+#organizacion h4 {
+	text-align: left;
+	
+	}
+	
+#organizacion h3 {
+	font-size: 18px;
+	
+	}
+	
