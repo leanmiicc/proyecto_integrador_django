@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>{% block titulo %}Inicio{% endblock titulo %}</title>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="https://kit.fontawesome.com/c290335d99.js" crossorigin="anonymous"></script>
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
   <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet" type="text/css" />
@@ -14,51 +14,61 @@
     type="text/css" />
   <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
   {% load static %}
-  <link href="{% static '/home/css/agency.css'%}" rel="stylesheet" />
-  <link href="{% static '/home/css/style.css'%}" rel="stylesheet" />
   <link href="{% static '/home/css/bootstrap.min.css'%}" rel="stylesheet" />
+  <link href="{% static '/home/css/agency.css'%}" rel="stylesheet" />
   <link href="{% static '/home/font-awesome/css/font-awesome.min.css'%}" rel="stylesheet" type="text/css" />
+  <link href="{% static '/home/css/style.css'%}" rel="stylesheet" />
   {% block css %} {% endblock css %}
 </head>
 
 <body id="page-top" class="index">
+  
   <!-- Navigation -->
   <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+        </div>
 
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav navbar-right">
-          <li class="hidden">
-            <a href="#page-top"></a>
-          </li>
-          <li>
-            <a class="page-scroll" href="{% url 'home' %}">Home</a>
-          </li>
-          <li>
-            <a class="page-scroll" href="#bio">Bio</a>
-          </li>
-          <li>
-            <a class="page-scroll" href="{% url 'escuela' %}">Escuela</a>
-          </li>
-
-          <li>
-            <a href="coaching.pdf" target="”_blank”">News</a>
-          </li>
-
-          <li>
-            <a class="page-scroll" href="#prensa">Prensa</a>
-          </li>
-
-          <li>
-            <a class="page-scroll" href="#contact">Contacto</a>
-          </li>
-        </ul>
-      </div>
-      <!-- /.navbar-collapse -->
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="hidden">
+                    <a href="#page-top"></a>
+                </li>
+      <li>
+                    <a class="page-scroll" href="{% url 'home' %}">Home</a>
+                </li>
+      <li>
+                    <a class="page-scroll" href="#bio">Bio</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="{% url 'escuela' %}">Escuela</a>
+                </li>
+      
+      <li>
+                    <a href="coaching.pdf" target="_blank">News</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#prensa">Prensa</a>
+                </li>
+                
+                <li>
+                    <a class="page-scroll" href="#contact">Contacto</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
     </div>
     <!-- /.container-fluid -->
-  </nav>
+</nav>
 
   <!-- Header -->
   <header id="banner">
@@ -70,10 +80,10 @@
   </header>
   <main>{%block contenido %} {%endblock contenido %}</main>
 
-  {% include './footer.html' %}
-
+  {% include './footer.html' %} 
+  
   {% block javascript %}
-  <!-- jQuery -->
+
   <script src="{% static '/home/js/jquery.js'%}"></script>
 
   <!-- Bootstrap Core JavaScript -->
@@ -87,10 +97,12 @@
   <!-- Contact Form JavaScript -->
   <script src="{% static '/home/js/jqBootstrapValidation.js' %}"></script>
   <script src="{% static '/home/js/contact_me.js'%}"></script>
+      
+      
 
   <!-- Custom Theme JavaScript -->
   <script src="{% static '/home/js/agency.js'%}"></script>
-
+  
   {% endblock javascript %}
 </body>
 
